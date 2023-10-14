@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+/* header  start*/
+.header-bottom{
+    padding: 2rem 0;
+    background-color: #AD0F14;
+    position: relative;
+    width: 100%;
+    
+}
+.header-top{
+    padding: 1.5rem 0;
+}
+.header-bottom img{
+    width: 20%;
+    position: absolute;
+    top: -33px;
+    left: 33px;
+}
+.header-top select{
+    margin: 0 20px;
+    font-size: 25px;
+    color: black;
+}
+
+.header-top i{
+    position: relative;
+    color: black;
+    font-size: 40px;
+    
+}
+.header-top i span{
+    position: absolute;
+    top: -17px;
+    left: 15px;
+    background-color: #AD0F14;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 100%;
+    color: white;
+}
+.header-top a{
+    font-size: 25px;
+    margin-right: 7px;
+    transition: 0.5s;
+
+}
+.header-top select{
+    background-color: transparent;
+    border: none;
+    outline: transparent;
+}
+
+.header-bottom ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.header-bottom a,footer a{
+    color: white;
+    transition: 0.2s;
+}
+.header-bottom a:hover,.header-top a:hover,footer a:hover{
+    color: grey;
+}
+footer{
+    color: white;
+    background-color:#AD0F14;
+    padding: 1rem 0;
+}
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer i{
+    font-size: 20px;
+    color: white;
+    margin-left: 5px;
+    
+
+}
+.footer-icons::before{
+    width: 2px;
+    height: 51px;
+    content: "";
+    background-color: white;
+    position: absolute;
+    top: -9px;
+    right: 120px;
+}
+
+.footer-icons{
+    position: relative;
+}
+#Souslar .card a{
+    background-color: #0F9675;
+    outline: none;
+    border: 0;
+    padding:  10px 20px; 
+    font-weight: bold;
+
+}
+#Souslar .card{
+    border: none;
+    
+}
+#Souslar{
+    padding: 20px 0px;
+}

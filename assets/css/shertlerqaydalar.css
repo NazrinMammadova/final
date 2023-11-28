@@ -2,7 +2,7 @@
     float: left;
     border: 1px solid #017C5B;
     width: 30%;
-    height: 500px;
+    height: 700px;
 
   }
   
@@ -45,19 +45,26 @@
   }
 
   #shertlerqaydalarTabmenu #firstTab img,
-  #shertlerqaydalarTabmenu #secondTab img
+  #shertlerqaydalarTabmenu #secondTab img,
+  #shertlerqaydalarTabmenu #fifthTab img
   
   {
     width: 100%;
   }
   #shertlerqaydalarTabmenu #firstTab h3,#shertlerqaydalarTabmenu #secondTab h3,
   #shertlerqaydalarTabmenu #thirdTab h3,
-  #shertlerqaydalarTabmenu #fourthTab h3
+  #shertlerqaydalarTabmenu #fourthTab h3, #fourthTab h6,
+  #shertlerqaydalarTabmenu #sixthTab h3,
+  #shertlerqaydalarTabmenu #seventhTab h3
+
 
   {
     color: black;
     font-weight: bold;
     margin-bottom: 20px;
+  }
+  #fourthTab h6{
+    text-align: center;
   }
 
   #shertlerqaydalarTabmenu #firstTab p, #shertlerqaydalarTabmenu #secondTab p
@@ -77,10 +84,34 @@
     position: relative;
     counter-increment: my-counter;
     padding-left: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    
   }
   ol li::before {
-    content: "\00B7"; /* Unicode mətn nöqtəsi */
+    content: "\00B7";
     position: absolute;
     left: 0;
-    color: #666;
+    color: #000000;
+  
+  }
+  .swiper {
+    width: 100%;
+    height: 800px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }

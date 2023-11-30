@@ -1,4 +1,8 @@
 
+#Reservation{
+  background-color: grey;
+  padding: 4rem 0;
+}
   #Reservation h1:first-child{
     font-size: 70px;
     font-weight: bold;

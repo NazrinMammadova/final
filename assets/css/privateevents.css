@@ -2,12 +2,14 @@
 #privateevents{
     background-image: url(/assets/img/evenstpizza.jpg);
     background-attachment: fixed;
-    background-position: center;
+    background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 2rem 0;
     
 }
+
+
 #privateevents h1{
     color: white;
     font-size: 80px;

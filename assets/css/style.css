@@ -126,7 +126,7 @@ footer i{
   
   /* Dark theme */
   .dark-theme {
-    --background-color: #333;
+    --background-color:#030934;
     --text-color: #f5f5f5;
   }
 
@@ -138,3 +138,5 @@ footer i{
     border-radius: 5px;
     cursor: pointer;
   }
+
+  

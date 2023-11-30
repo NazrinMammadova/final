@@ -104,3 +104,19 @@ transition: 0.5s;
 }
 
 
+#Services{
+    background-image: url(/assets/img/services.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 4rem 0;
+
+}
+
+
+#Services i {
+    font-size: 50px;
+}
+#Services h3{
+    margin: 10px 0px;
+}

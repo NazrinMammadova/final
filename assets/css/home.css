@@ -5,12 +5,13 @@
       font-size: 14px;
       color: #000;
       margin: 0;
-      padding: 20px;
+      padding: 0;
     }
 
     #homeSlider .swiper {
       width: 100%;
       height: 100%;
+   
     }
 
     #homeSlider  .swiper-slide {
@@ -53,8 +54,13 @@
     left: 132px;
 }
 
+
 #Earn{
-    padding: 2rem 0;
+    padding: 11rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/assets/img/PizzaDownload.jpg);
+
 
 }
 #Earn h2{
@@ -116,7 +122,19 @@ transition: 0.5s;
 
 #Services i {
     font-size: 50px;
+    border: 1px solid black;
+    padding: 20px;
+    transition: 0.5s;
+
+    
+}
+#Services i:hover{
+    background-color: #DD8F0A;
+    color: white;
+    border: 1px solid #DD8F0A;
+    transform:rotate(360deg);
 }
 #Services h3{
-    margin: 10px 0px;
+    margin: 10px;
 }
+

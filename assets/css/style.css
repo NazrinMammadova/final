@@ -10,6 +10,7 @@ body{
 a{
     text-decoration: none;
     color:#AD0F14;
+    font-size: 18px;
 }
 ul{
     list-style: none;
@@ -171,6 +172,9 @@ display: block;
    }
 
 
+   #myInput{
+    width: 200px;
+   }
 
   }
 
@@ -223,7 +227,7 @@ display: block;
         width: 40%;
         position: absolute;
         top: -35px;
-        left: 410px;
+        left: 370px;
     }
     #headerdrop{
 display: block;
@@ -452,3 +456,87 @@ display: block;
     visibility: visible;
     opacity: 1;
   }
+
+
+  #myInput {
+    border: 1px solid #AD0F14;
+    border-radius: 10px;
+    position: relative;
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  z-index: 11111;
+  width: 423px;
+}
+
+#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+
+.dropbtn {
+   background-color: transparent;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 1111111111111111;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  left: -90px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+.fa-solid.fa-basket-shopping{
+  color: #017D5C;
+}

@@ -46,3 +46,5 @@ themeToggle.addEventListener('click', () => {
   updateThemeIcon(isDarkTheme);
   saveThemePreference(isDarkTheme);
 });
+
+

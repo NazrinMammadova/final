@@ -2,14 +2,13 @@
     float: left;
     border: 1px solid #017C5B;
     width: 30%;
-    height: 700px;
+    height: 800px;
 
   }
   
   .tab button {
     display: block;
     background-color: inherit;
-    color: black;
     padding: 22px 16px;
     width: 90%;
     border: none;
@@ -59,7 +58,6 @@
 
 
   {
-    color: black;
     font-weight: bold;
     margin-bottom: 20px;
   }
@@ -70,7 +68,6 @@
   #shertlerqaydalarTabmenu #firstTab p, #shertlerqaydalarTabmenu #secondTab p
   ,#shertlerqaydalarTabmenu #thirdTab p
   {
-    color: black;
     font-weight: 100;
     margin-top: 20px;
   }
@@ -92,7 +89,6 @@
     content: "\00B7";
     position: absolute;
     left: 0;
-    color: #000000;
   
   }
   .swiper {
@@ -115,3 +111,18 @@
     height: 100%;
     object-fit: cover;
   }
+  #thirdTab p{
+
+    font-size: 15px;
+  }
+
+  #shertlerqaydalarTabmenu .tab{
+    background-color: #AD0F14;
+    border-radius: 20px;
+    border: 0;
+  }
+  #shertlerqaydalarTabmenu .tab h5{
+    color: white;
+  }
+
+

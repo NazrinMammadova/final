@@ -139,4 +139,31 @@ footer i{
     cursor: pointer;
   }
 
-  
+  @media(max-width:576px) {
+
+    .footer-icons::before{
+        width: 2px;
+        height: 51px;
+        content: "";
+        background-color: white;
+        position: absolute;
+        top: -9px;
+        right: 165px;
+    }
+
+  }
+
+  @media only screen and (min-width: 576px) and (max-width: 768px) 
+{
+   
+    .footer-icons::before{
+        width: 2px;
+        height: 51px;
+        content: "";
+        background-color: white;
+        position: absolute;
+        top: -9px;
+        right: 165px;
+    }
+
+}

@@ -6,6 +6,7 @@
       color: #000;
       margin: 0;
       padding: 0;
+      
     }
 
     #homeSlider .swiper {
@@ -137,4 +138,12 @@ transition: 0.5s;
 #Services h3{
     margin: 10px;
 }
+#homeVideo iframe{
+    width: 100%;
+    height: 300px;
+}
+@media(max-width:576px) {
+ 
+ 
 
+}

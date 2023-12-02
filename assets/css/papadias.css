@@ -9,4 +9,9 @@
 }
 #Papadias .card{
     border: none;
+    height: 450px;
+}
+
+#Papadias{
+    padding: 1rem 0;
 }

@@ -20,11 +20,14 @@
           @media only screen and (min-width: 768px) and (max-width: 991px) {
             .shopping-cart-table .table tbody tr td .product-title .title a {
               font-size: 14px;
-              line-height: 24px; } }
+              line-height: 24px; 
+            } }
           @media (max-width: 767px) {
             .shopping-cart-table .table tbody tr td .product-title .title a {
               font-size: 14px;
-              line-height: 24px; } }
+              line-height: 24px; } 
+            
+            }
         .shopping-cart-table .table tbody tr td .product-price .price {
           font-size: 16px;
           color: #333; }
@@ -107,7 +110,6 @@
       justify-content: space-between;
       margin-top: 10px; }
       .cart-total .single-total .cart-value {
-        color: #333;
         font-size: 16px;
         font-weight: 500; }
         @media (max-width: 767px) {
@@ -117,7 +119,6 @@
           .cart-total .single-total .cart-value {
             font-size: 16px; } }
       .cart-total .single-total .cart-amount {
-        color: #333;
         font-size: 16px; }
         @media (max-width: 767px) {
           .cart-total .single-total .cart-amount {
@@ -140,3 +141,13 @@
             font-size: 16px; } }
   
   
+
+     #buybtn{
+      color: white;
+      background:#e52e06;
+      padding: 12px;
+      border-radius: 15px;
+     }       
+
+
+     

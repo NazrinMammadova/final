@@ -32,9 +32,10 @@
         <input type="text" id="myInput" placeholder="Search..">
         
 <ul id="myUL">
-<!-- <li><a href="#">Adele</a></li>
-<li><a href="#">Adele</a></li>
-<li><a href="#">Adele</a></li> -->
+<!-- <li><a href="#"><img width="150" src="assets/img/pizza (1).jpg" alt="">Chicken Barbeque</a></li>
+<li><a href="#"><img width="150" src="assets/img/pizza (1).jpg" alt="">Chicken Barbeque</a></li>
+<li><a href="#"><img width="150" src="assets/img/pizza (1).jpg" alt="">Chicken Barbeque</a></li> -->
+
 
 </ul>
       </div>
@@ -44,7 +45,16 @@
           <span class="fw-bold  fs-3">/</span>
           <a href="">Qeydiyyat</a>
 
-          <i class="fa-solid fa-basket-shopping"><span>0</span></i>
+          <div class="dropdown" style="float:right;">
+            <button class="dropbtn"><i class="fa-solid fa-basket-shopping"><span>0</span></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">sebet boshdur..</a>
+              <a href="#">count:15 Price:20 Chicken Barbeque<img width="70" src="assets/img/pizza (1).jpg" alt=""></a>
+              <a href="#">count:15 Price:20 Chicken Barbeque<img width="70" src="assets/img/pizza (1).jpg" alt=""></a>
+
+            </div>
+          </div>
       </div>
 
 
@@ -122,70 +132,217 @@
     <div class="container">
 
         <div class="row justify-content-center">
-            <div class="col-sm-6 col-md-4 col-lg-3  mt-3 g-4">
-                <div class="card" >
-                    <img class="card-img-top" src="/assets/img/pizza (1).jpg" alt="">
-                    <div class="card-body">
-                      <h5 class="card-title">Acılı Çiken Ranç
-
-                    </h5>
-                      <p class="card-text h-50">
-                        Ranç Sousu, Qril Toyuğu, Göbələk,  Halapeno Bibəri, Pomidor, Mozzarella 
-
-
-                        
-                       </p>
-                      <a href="#" class="btn btn-success">Bunu Seç</a>
-                    </div>
+          <!-- 1 -->
+       
+         <!-- 1 -->
+              <!-- 2 -->
+              <div class="col-sm-6 col-md-4 col-lg-3 mt-3 g-4">
+                <div class="card">
+                  <img class="card-img-top" src="/assets/img/pizza (2).jpg" alt="" onclick="showDetails('book-2')">
+                  <div class="card-body">
+                    <h5 class="card-title">Acılı Çiken Ranç</h5>
+                    <p class="card-text h-50">
+                      Ranç Sousu, Qril Toyuğu, Göbələk, Halapeno Bibəri, Pomidor, Mozzarella 
+                    </p>
+                    <a href="#" class="btn btn-success">Bunu Seç</a>
                   </div>
+                </div>
+              </div>
+              <div class="product-detail position-fixed" id="detail-book-2">
+                <div class="d-flex justify-content-center detail-img ">
+               <img  src="assets/img/pizza (2).jpg" alt="">
+                </div>
+                <div class="product-card align-items-center position-relative">
+                  <a href="">
+                      <h5>
+                        Acılı Çiken Ranç
+                      </h5>
+                  </a>
+                  <div class="price d-flex justify-content-start ">
+                                  
+                      <p>Qiymet:5.10</p>
+                  </div> 
+                  <select class="pizzaselect" name="" id="">
+                    <option value="">kicik</option>
+                    <option value="">orta</option>
+                    <option value="">boyuk</option>
+                  </select>
+                 
+              </div>
+              <button class="btn">Səbətə At</button>
+               </div>
+               <div class="detail-black "  id="black-book-2">
+                  
+               </div>
+    
+             <!-- 2 -->
+            <!-- 3 -->
+            <div class="col-sm-6 col-md-4 col-lg-3 mt-3 g-4">
+              <div class="card">
+                <img class="card-img-top" src="/assets/img/pizza (3).jpg" alt="" onclick="showDetails('book-3')">
+                <div class="card-body">
+                  <h5 class="card-title">Acılı Çiken Ranç</h5>
+                  <p class="card-text h-50">
+                    Ranç Sousu, Qril Toyuğu, Göbələk, Halapeno Bibəri, Pomidor, Mozzarella 
+                  </p>
+                  
+                  <a href="#" class="btn btn-success">Bunu Seç</a>
+                </div>
+              </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3  mt-3 g-4">
-                <div class="card" >
-                    <img class="card-img-top" src="/assets/img/pizza (1).jpg" alt="">
-                    <div class="card-body">
-                      <h5 class="card-title">Çiken Parmezan
-                    </h5>
-                      <p class="card-text h-50">
-                        Pizza sousu, Çiken Poppersləri, Sarımsaqlı parmesan sousu, Göbələk, İtalyan Ədviyyatları, Mozzarella 
+            <div class="product-detail position-fixed" id="detail-book-3">
+              <div class="d-flex justify-content-center detail-img ">
+             <img  src="assets/img/pizza (3).jpg" alt="">
+              </div>
+              <div class="product-card align-items-center position-relative">
 
-                        
-                       </p>
-                      <a href="#" class="btn btn-success">Bunu Seç</a>
-                    </div>
-                  </div>
+                <a href="">
+                    <h5>
+                      Acılı Çiken Ranç                    </h5>
+                </a>
+                <div class="price d-flex justify-content-start ">
+                                
+                    <p>5.10</p>
+                </div> 
+                <select class="pizzaselect" name="" id="">
+                  <option value="">kicik</option>
+                  <option value="">orta</option>
+                  <option value="">boyuk</option>
+                </select>
+               
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3  mt-3 g-4">
-                <div class="card" >
-                    <img class="card-img-top" src="/assets/img/pizza (1).jpg" alt="">
-                    <div class="card-body">
-                      <h5 class="card-title">Qril Çiken Parmezan
-
-                    </h5>
-                      <p class="card-text h-50">
-                        Pizza sousu, Sarımsaqlı Parmezan sousu, Qril Toyuğu, Vetçina, Pomidor, Mozzarella, Halapeno Bibəri.
-
-
-                        
-                       </p>
-                      <a href="#" class="btn btn-success">Bunu Seç</a>
-                    </div>
-                  </div>
+            <button class="btn">Səbətə At</button>
+             </div>
+             <div class="detail-black "  id="black-book-3">
+                
+             </div>
+  
+           <!-- 3 -->
+             <!-- 4 -->
+             <div class="col-sm-6 col-md-4 col-lg-3 mt-3 g-4">
+              <div class="card">
+                <img class="card-img-top" src="/assets/img/pizza (4).jpg" alt="" onclick="showDetails('book-4')">
+                <div class="card-body">
+                  <h5 class="card-title">Acılı Çiken Ranç</h5>
+                  <p class="card-text h-50">
+                    Ranç Sousu, Qril Toyuğu, Göbələk, Halapeno Bibəri, Pomidor, Mozzarella 
+                  </p>
+                  <a href="#" class="btn btn-success">Bunu Seç</a>
+                </div>
+              </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3  mt-3 g-4">
-                <div class="card" >
-                    <img class="card-img-top" src="/assets/img/pizza (1).jpg" alt="">
-                    <div class="card-body">
-                      <h5 class="card-title">Çiken Parmezan
-                    </h5>
-                      <p class="card-text h-50">
-                        Pizza sousu, Çiken Poppersləri, Sarımsaqlı parmesan sousu, Göbələk, İtalyan Ədviyyatları, Mozzarella 
-
-                        
-                       </p>
-                      <a href="#" class="btn btn-success">Bunu Seç</a>
-                    </div>
-                  </div>
+            <div class="product-detail position-fixed" id="detail-book-4">
+              <div class="d-flex justify-content-center detail-img ">
+             <img  src="assets/img/pizza (4).jpg" alt="">
+              </div>
+              <div class="product-card align-items-center position-relative">
+             
+                <a href="">
+                    <h5>
+                      Acılı Çiken Ranç                    </h5>
+                </a>
+                <div class="price d-flex justify-content-start ">
+                                
+                    <p>5.10</p>
+                </div> 
+                <select class="pizzaselect" name="" id="">
+                  <option value="">kicik</option>
+                  <option value="">orta</option>
+                  <option value="">boyuk</option>
+                </select>
+            
+               
             </div>
+            <button class="btn">Səbətə At</button>
+             </div>
+             <div class="detail-black "  id="black-book-4">
+                
+             </div>
+  
+           <!-- 4 -->
+                <!-- 5 -->
+          <div class="col-sm-6 col-md-4 col-lg-3 mt-3 g-4">
+            <div class="card">
+              <img class="card-img-top" src="/assets/img/pizza (5).jpg" alt="" onclick="showDetails('book-5')">
+              <div class="card-body">
+                <h5 class="card-title">Acılı Çiken Ranç</h5>
+                <p class="card-text h-50">
+                  Ranç Sousu, Qril Toyuğu, Göbələk, Halapeno Bibəri, Pomidor, Mozzarella 
+                </p>
+                <a href="#" class="btn btn-success">Bunu Seç</a>
+              </div>
+            </div>
+          </div>
+          <div class="product-detail position-fixed" id="detail-book-5">
+            <div class="d-flex justify-content-center detail-img ">
+           <img  src="assets/img/pizza (5).jpg" alt="">
+            </div>
+            <div class="product-card align-items-center position-relative">
+              <a href="">
+                  <h5>
+                      Nikolya Boneni şərqə aparan hekayə
+                  </h5>
+              </a>
+              <div class="price d-flex justify-content-start ">
+                              
+                  <p>5.10</p>
+              </div> 
+          
+              <select class="pizzaselect" name="" id="">
+                <option value="">kicik</option>
+                <option value="">orta</option>
+                <option value="">boyuk</option>
+              </select>
+          </div>
+          <button class="btn">Səbətə At</button>
+           </div>
+           <div class="detail-black "  id="black-book-5">
+              
+           </div>
+
+         <!-- 5 -->
+                 <!-- 6 -->
+          <div class="col-sm-6 col-md-4 col-lg-3 mt-3 g-4">
+            <div class="card">
+              <img class="card-img-top" src="/assets/img/pizza (6).jpg" alt="" onclick="showDetails('book-6')">
+              <div class="card-body">
+                <h5 class="card-title">Acılı Çiken Ranç</h5>
+                <p class="card-text h-50">
+                  Ranç Sousu, Qril Toyuğu, Göbələk, Halapeno Bibəri, Pomidor, Mozzarella 
+                </p>
+                <a href="#" class="btn btn-success">Bunu Seç</a>
+              </div>
+            </div>
+          </div>
+          <div class="product-detail position-fixed" id="detail-book-6">
+            <div class="d-flex justify-content-center detail-img ">
+           <img  src="assets/img/pizza (6).jpg" alt="">
+            </div>
+            <div class="product-card align-items-center position-relative">
+              <a href="">
+                  <h5>
+                      Nikolya Boneni şərqə aparan hekayə
+                  </h5>
+              </a>
+              <div class="price d-flex justify-content-start ">
+                              
+                  <p>5.10</p>
+              </div> 
+              <select class="pizzaselect" name="" id="">
+                <option value="">kicik</option>
+                <option value="">orta</option>
+                <option value="">boyuk</option>
+              </select>
+          
+             
+          </div>
+          <button class="btn">Səbətə At</button>
+           </div>
+           <div class="detail-black "  id="black-book-6">
+              
+           </div>
+
+         <!-- 6 -->
 
         </div>
     </div>
@@ -197,6 +354,10 @@
 
 
 </main>
+
+
+
+
 <footer>
 
   <div class="container">
@@ -240,7 +401,7 @@ crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 crossorigin="anonymous"></script>
-<script src="assets/js/test.js"></script>
+<script src="assets/js/pizza.js"></script>
 <script src="assets/js/main.js"></script>
 
 </body>

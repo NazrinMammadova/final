@@ -208,6 +208,7 @@ display: block;
 
   @media only screen and (min-width: 576px) and (max-width: 768px) 
 {
+  
    
    
     .footer-icons::before{
@@ -347,6 +348,7 @@ display: block;
   }
   
   .popup-window {
+    width: 180px;
     transform: scale(var(--nav-default-scale));
     visibility: hidden;
     opacity: 0;
@@ -355,12 +357,12 @@ display: block;
     background: var(--nav-bg);
     font-family: var(--nav-font-family);
     color: var(--nav-text-color);
-    border-radius: var(--nav-border-radius);
+    border-radius: 3px;
     box-shadow: var(--nav-shadow-width) var(--nav-shadow-color);
     border: var(--nav-border-width) solid var(--nav-border-color);
     top: calc(var(--burger-diameter) + var(--burger-enable-outline-width) + var(--burger-enable-outline-offset));
-    left: var(--nav-position-left);
-    right: var(--nav-position-right);
+    left: -12px;
+    right: 0;
     transition: var(--burger-transition);
   }
   
@@ -577,3 +579,1487 @@ display: block;
 
 .header-top .dropdown-content a:hover {background-color: #f1f1f1;}
 .header-top .dropdown:hover .dropdown-content {display: block;}
+
+
+
+
+
+
+
+
+
+#Souslar .card a{
+  background-color: #0F9675;
+  outline: none;
+  border: 0;
+  padding:  10px 20px; 
+  font-weight: bold;
+
+}
+#Souslar .card{
+  border: none;
+  
+}
+#Souslar{
+  padding: 20px 0px;
+}
+
+
+
+#signInform .form-container {
+
+  width: 550px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 60px;
+  margin:auto
+  
+}
+
+
+#signInform .title {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 10px 0 30px 0;
+  font-size: 28px;
+  font-weight: 800;
+}
+#signInform{
+
+  background-image: url(/assets/img/pizzalogin.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 100px;
+}
+
+#signInform  .sub-title {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 9px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#signInform .form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 15px;
+
+
+}
+
+#signInform .input {
+  border-radius: 20px;
+  border: 1px solid #c0c0c0;
+  outline: 0 !important;
+  box-sizing: border-box;
+  padding: 12px 15px;
+}
+
+#signInform .form-btn {
+  padding: 10px 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 20px;
+  border: 0 !important;
+  outline: 0 !important;
+  background: teal;
+  color: white;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#signInform .form-btn:active {
+  box-shadow: none;
+}
+
+#signInform .sign-up-label {
+  margin: 0;
+  font-size: 10px;
+  color: #747474;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#signInform .sign-up-link {
+  margin-left: 1px;
+  font-size: 11px;
+  text-decoration: underline;
+  text-decoration-color: teal;
+  color: teal;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+#signInform .buttons-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+#signInform .apple-login-button,
+#signInform  .google-login-button {
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  gap: 5px;
+}
+
+#signInform .apple-login-button {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+}
+
+#signInform .google-login-button {
+  border: 2px solid #747474;
+}
+
+#signInform .apple-icon,
+    .google-icon {
+  font-size: 18px;
+  margin-bottom: 1px;
+}
+body{
+  overflow-x: hidden;
+}
+
+
+#shertlerqaydalarTabmenu .tab {
+  float: left;
+  border: 1px solid #017C5B;
+  width: 30%;
+  height: 800px;
+
+}
+
+#shertlerqaydalarTabmenu .tab button {
+  display: block;
+  background-color: inherit;
+  padding: 22px 16px;
+  width: 90%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  margin: 5%;
+}
+
+#shertlerqaydalarTabmenu .tab button:hover {
+  background-color: #017c5b5f;
+}
+
+#shertlerqaydalarTabmenu .tab button.active {
+  background-color:#017C5B;
+}
+
+#shertlerqaydalarTabmenu .tabcontent {
+  float: left;
+  padding: 0px 12px;
+  width: 70%;
+  border-left: none;
+  height: 1450px;
+  border-radius: 0 10px 10px 0;
+
+}
+
+
+#shertlerqaydalarTabmenu{
+  padding: 20px 0 ;
+}
+
+#shertlerqaydalarTabmenu #firstTab img,
+#shertlerqaydalarTabmenu #secondTab img,
+#shertlerqaydalarTabmenu #fifthTab img
+
+{
+  width: 100%;
+}
+#shertlerqaydalarTabmenu #firstTab h3,#shertlerqaydalarTabmenu #secondTab h3,
+#shertlerqaydalarTabmenu #thirdTab h3,
+#shertlerqaydalarTabmenu #fourthTab h3,#shertlerqaydalarTabmenu #fourthTab h6,
+#shertlerqaydalarTabmenu #sixthTab h3,
+#shertlerqaydalarTabmenu #seventhTab h3
+
+
+{
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#shertlerqaydalarTabmenu #fourthTab h6{
+  text-align: center;
+}
+
+#shertlerqaydalarTabmenu #firstTab p, #shertlerqaydalarTabmenu #secondTab p
+,#shertlerqaydalarTabmenu #thirdTab p
+{
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+#shertlerqaydalarTabmenu ol {
+  list-style-type: none;
+  counter-reset: my-counter;
+  margin-left: 20px;
+}
+#shertlerqaydalarTabmenu ol li {
+  position: relative;
+  counter-increment: my-counter;
+  padding-left: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  
+}
+#shertlerqaydalarTabmenu  ol li::before {
+  content: "\00B7";
+  position: absolute;
+  left: 0;
+
+}
+#shertlerqaydalarTabmenu  .swiper {
+  width: 100%;
+  height: 800px;
+}
+
+#shertlerqaydalarTabmenu  .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#shertlerqaydalarTabmenu .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#shertlerqaydalarTabmenu #thirdTab p{
+
+  font-size: 15px;
+}
+
+#shertlerqaydalarTabmenu .tab{
+  background-color: #AD0F14;
+  border-radius: 20px;
+  border: 0;
+}
+#shertlerqaydalarTabmenu .tab h5{
+  color: white;
+}
+
+
+#Salads .card a{
+  background-color: #0F9675;
+  outline: none;
+  border: 0;
+  padding:  10px 20px; 
+  font-weight: bold;
+
+}
+#Salads .card{
+  border: none;
+  
+}
+#Salads{
+  padding: 20px 0px;
+}
+
+
+
+#Reservation{
+  background-color: grey;
+  padding: 4rem 0;
+}
+  #Reservation h1:first-child{
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+ 
+  #Reservation p{
+    color: white;
+    font-weight: 100;
+    margin-bottom: 20px;
+  }
+  
+  #Reservation a{
+    color: white;
+    background-color:#AD0F14;
+    padding: 17px 46px;
+    border-radius: 19px;
+  }
+  #Reservation h1{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0 ;
+    outline: none;
+    
+  }
+  #Reservation select,#Reservation button{
+    word-wrap: break-word;
+    border: none;
+    padding: 16px 63px;
+    border-radius: 10px;
+    outline: none;
+  }
+  #Reservation button{
+    background-color: #AD0F14;
+    color: white;
+  }
+  #Reservation .my-form{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Snacks .card a{
+  background-color: #0F9675;
+  outline: none;
+  border: 0;
+  padding:  10px 20px; 
+  font-weight: bold;
+
+}
+#Snacks .card{
+  border: none;
+  height: 430px;
+}
+#Snacks{
+  padding: 20px 0px;
+}
+
+@media(max-width:576px) {
+
+  #Snacks .card{
+    height: 570px;
+  } 
+
+}
+
+
+
+
+#Pizza{
+  padding: 4rem 0;
+}
+#Pizza .pizzaselect
+{
+ margin-bottom: 10px;
+ padding: 7px 10px;
+ color:#b03b31;
+ border-radius: 14px;
+ background-color:white;
+}  
+
+#Pizza .card{
+  height: 490px;
+}
+
+@media(max-width:576px) {
+ 
+#Pizza .card{
+  height: 620px;
+} 
+
+}
+/* 
+.detail-black{
+  height: 100vh;
+ 
+  background-color: black !important;
+  position: fixed;
+  opacity: 0.0;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  display: none;
+ }
+ .product-detail{
+  height: 450px;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-color:white;
+  width: 270px;
+  z-index: 1001;
+  display: none;
+ }
+ .product-detail .detail-img{
+  height: 240px;
+  width:240px ;
+  margin: 0px auto;
+  margin-top: 15px;
+
+ }
+ .product-detail img{
+  width: 100%;
+  height:100%;
+ }
+.product-detail .product-card  {
+  width: 100% !important;
+}
+.product-detail button{
+  width: 100%;
+  background-color: #b03b31;
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid #B03B31;
+} */
+@media only screen and (max-width: 991px) {
+/* .book{
+  height: 620px !important;
+}
+.book h1{
+  margin-top: 20px;
+}
+}
+.product-detail button:hover{
+  color:#B03B31;
+  background-color:white;
+  border: 2px solid #B03B31;
+}
+.no-scroll {
+  overflow: hidden !important;
+}
+.book{
+  height: 400px;
+  display: flex;
+  align-items: center
+}
+.detail-img{
+  height: fit-content;
+  width: 2
+}
+
+/* .pizzaselect
+  
+ {
+  margin-bottom: 10px;
+  padding: 7px 10px;
+  color:#b03b31;
+  border-radius: 14px;
+  background-color:white;
+}  */
+
+
+#Papadias .card a{
+  background-color: #0F9675;
+  outline: none;
+  border: 0;
+  padding:  10px 20px; 
+  font-weight: bold;
+
+}
+#Papadias .card{
+  border: none;
+  height: 40px;
+}
+
+#Papadias{
+  padding: 1rem 0;
+}
+
+
+#Pastas .card a{
+  background-color: #0F9675;
+  outline: none;
+  border: 0;
+  padding:  10px 20px; 
+  font-weight: bold;
+
+}
+#Pastas .card{
+  border: none;
+  
+  
+}
+#Pastas{
+  padding: 20px 0px;
+}
+
+
+#Ichkiler .card a{
+  background-color: #0F9675;
+  outline: none;
+  border: 0;
+  padding:  10px 20px; 
+  font-weight: bold;
+
+}
+#Ichkiler .card{
+  border: none;
+  
+}
+
+#Ichkiler{
+  padding: 4rem 0;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) 
+{
+  #Ichkiler .card{
+      height: 300px;
+  }
+
+}
+
+
+#Desserts .card a{
+  background-color: #0F9675;
+  outline: none;
+  border: 0;
+  padding:  10px 20px; 
+  font-weight: bold;
+
+}
+
+}
+#Papadias .card{
+  height: 450px;
+}
+#Papadias,#Pastas{
+  padding: 4rem 0;
+}
+
+#Desserts .productPrice span,#Papadias .productPrice span,#Pizza .productPrice span,#Opportunities .productPrice span
+,#Ichkiler .productPrice span,#Souslar .productPrice span,#Salads .productPrice span,#Pastas .productPrice span,#Snacks .productPrice span
+{ 
+ 
+  color:#AD0F14;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+#Desserts .card{
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+#Desserts .card img{
+  width: 100%;
+  height: 100%;
+
+}
+
+.shopping-cart-table {
+  margin-top: 30px; }
+  .shopping-cart-table .table {
+    margin-bottom: 0; }
+    .shopping-cart-table .table thead tr th {
+      padding: 8px 15px;
+      border: 1px solid #e5e5e5;
+      font-size: 16px;
+      font-weight: 500;
+      color: #333; }
+      .shopping-cart-table .table thead tr th.product {
+        min-width: 242px; }
+    .shopping-cart-table .table tbody tr td {
+      border: 1px solid #e5e5e5;
+      vertical-align: middle; }
+      .shopping-cart-table .table tbody tr td .product-title .title a {
+        font-size: 16px;
+        font-weight: 500;
+        color: #333; }
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .shopping-cart-table .table tbody tr td .product-title .title a {
+            font-size: 14px;
+            line-height: 24px; 
+          } }
+        @media (max-width: 767px) {
+          .shopping-cart-table .table tbody tr td .product-title .title a {
+            font-size: 14px;
+            line-height: 24px; } 
+          
+          }
+      .shopping-cart-table .table tbody tr td .product-price .price {
+        font-size: 16px;
+        color: #333; }
+      .shopping-cart-table .table tbody tr td .product-quantity .quantity input {
+        width: 60px;
+        height: 40px;
+        border: 1px solid #e5e5e5;
+        padding: 0 10px;
+        text-align: center; }
+      .shopping-cart-table .table tbody tr td .product-quantity .quantity button {
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        border: 1px solid #e5e5e5; }
+      .shopping-cart-table .table tbody tr td .product-total .total-amount {
+        font-size: 16px;
+        color: #333; }
+      .shopping-cart-table .table tbody tr td .product-delete {
+        text-align: center; }
+        .shopping-cart-table .table tbody tr td .product-delete a {
+          color: #333;
+          font-size: 16px; }
+
+.cart-btn {
+  border: 1px solid #e5e5e5;
+  border-top: 0;
+  padding: 12px; }
+  .cart-btn .main-btn {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+    font-size: 16px; }
+
+.cart-coupon {
+  border: 2px solid #e5e5e5;
+  padding: 25px 30px; }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .cart-coupon {
+      padding: 30px 20px; } }
+  .cart-coupon .title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    position: relative;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px; }
+    .cart-coupon .title::before {
+      position: absolute;
+      content: '';
+      background-color: #e52e06;
+      width: 50px;
+      height: 1px;
+      bottom: 0;
+      left: 0; }
+  .cart-coupon .coupon-form input {
+    width: 200px;
+    margin-right: 15px;
+    margin-top: 15px; }
+  .cart-coupon .coupon-form button {
+    margin-top: 15px; }
+
+.cart-total {
+  border: 2px solid #e5e5e5;
+  padding: 30px 30px; }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .cart-total {
+      padding: 30px 20px; } }
+  .cart-total .total {
+    border-top: 1px solid #e5e5e5;
+    margin-top: 10px; }
+  .cart-total .single-total {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+    margin-top: 10px; }
+    .cart-total .single-total .cart-value {
+      font-size: 16px;
+      font-weight: 500; }
+      @media (max-width: 767px) {
+        .cart-total .single-total .cart-value {
+          font-size: 14px; } }
+      @media only screen and (min-width: 576px) and (max-width: 767px) {
+        .cart-total .single-total .cart-value {
+          font-size: 16px; } }
+    .cart-total .single-total .cart-amount {
+      font-size: 16px; }
+      @media (max-width: 767px) {
+        .cart-total .single-total .cart-amount {
+          font-size: 14px; } }
+      @media only screen and (min-width: 576px) and (max-width: 767px) {
+        .cart-total .single-total .cart-amount {
+          font-size: 16px; } }
+  .cart-total .cart-total-btn {
+    margin-top: 20px; }
+    .cart-total .cart-total-btn .main-btn {
+      padding: 0 20px;
+      height: 50px;
+      line-height: 50px;
+      letter-spacing: 0; }
+      @media (max-width: 767px) {
+        .cart-total .cart-total-btn .main-btn {
+          font-size: 14px; } }
+      @media only screen and (min-width: 576px) and (max-width: 767px) {
+        .cart-total .cart-total-btn .main-btn {
+          font-size: 16px; } }
+
+
+
+   #buybtn{
+    color: white;
+    background:#e52e06;
+    padding: 12px;
+    border-radius: 15px;
+   }       
+
+
+   
+#Combos img{
+  width: 100%;
+  height: 400px;
+}
+#Combos a{
+  background-color: #017D5C;
+color: white;
+padding: 10px 20px;
+border-radius: 19px
+}
+#Combos{
+  padding: 10px 0;
+}
+
+#productDetail img{
+  width: 100%;
+  height: 400px;
+}
+#productDetail a{
+  background-color: #017D5C;
+color: white;
+padding: 10px 20px;
+border-radius: 19px
+}
+#productDetail{
+  padding: 10px 0;
+}
+
+
+#privateevents{
+  background-image: url(/assets/img/evenstpizza.jpg);
+  background-attachment: fixed;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem 0;
+
+  
+}
+
+
+#privateevents h1{
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  
+}
+
+
+#privateevents select{
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #FFDDDD;
+  font-weight: 100;
+}
+#privateevents input{
+  background-color: #FFDDDD;
+  width: 35%;
+  height: 45px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 26px 22px;
+  outline: none;
+
+}
+
+#privateevents button{
+  color: white;
+  background: #107A44;
+  padding: 10px 25px;
+  border-radius: 26px;
+  margin-top: 20px;
+  border: 0;
+}
+
+
+@media(max-width:576px) {
+
+  #privateevents select, #privateevents input{
+
+      margin: 10px 0;
+      width: 100%;
+  }
+
+  #privateevents h1{
+      font-size: 30px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) 
+{
+ 
+  #privateevents select, #privateevents input{
+
+      margin: 10px 0;
+      width: 100%;
+  }
+  #privateevents h1{
+      font-size: 40px;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 478px) and (max-width: 768px) 
+{
+ 
+  #privateevents select, #privateevents input{
+
+      margin: 10px 0;
+      width: 100%;
+  }
+
+  #privateevents h1{
+      font-size: 35px;
+  }
+}
+
+#homeSlider {
+  background: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  
+}
+
+#homeSlider .swiper {
+  width: 100%;
+  height: 100%;
+padding: 10px 0;
+
+}
+
+#homeSlider  .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#homeSlider  .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#CreatePizza{
+
+    background-image:url(/assets/img/create-your-own-banner.77d7e725.webp);
+}
+#CreatePizza a{
+    background-color: #D2112C;
+
+    padding: 20px 40px;
+    color: white;
+    font-weight: bold;
+
+
+
+}
+.createPizza{
+position: relative;
+}
+#CreatePizzabtn{
+position: absolute;
+
+top: 220px;
+left: 132px;
+}
+
+
+#Earn{
+padding: 11rem 0;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url(/assets/img/PizzaDownload.jpg);
+
+
+}
+#Earn h2{
+color: #AD0F14;font-weight: bold;
+}
+
+#Earn h1{
+color: #007EB0;
+;font-weight: bold;
+margin-bottom: 20px;
+font-size: 39px;
+}
+#Earn h3{
+line-height: 44px;
+color: grey;
+font-size: 25px;
+margin-bottom: 20px;
+}
+
+#Earn a{
+background-color: #AD0F14;
+color: white;
+padding: 13px 58px;
+border-radius: 10px;
+}
+#Earn a i{
+padding-right: 10px;
+}
+#homeVideo h1{
+font-size: 56px;
+color:#AD0F14;
+line-height: 101px;
+}
+
+
+#pizzaPictures img{
+width: 100%;
+height: 100%;
+transition: 0.5s;
+filter: grayscale(0.4);
+}
+
+#pizzaPictures img:hover{
+transform: scale(1.1);
+filter: grayscale(0.1);
+
+}
+
+
+#Services{
+background-image: url(/assets/img/services.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+padding: 4rem 0;
+
+}
+
+
+#Services i {
+font-size: 50px;
+border: 1px solid rgba(128, 128, 128, 0.208);
+padding: 20px;
+transition: 0.5s;
+color: #AD0F14;
+ 
+
+}
+#Services i:hover{
+background-color: #DD8F0A;
+color: white;
+border: 1px solid #DD8F0A;
+transform:rotate(360deg);
+}
+#Services h3{
+margin: 10px;
+}
+#homeVideo iframe{
+width: 100%;
+height: 300px;
+}
+@media(max-width:576px) {
+#homeVideo h1 {
+font-size: 45px;
+
+
+}
+
+#Papadias .card{
+  height: 570px;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) 
+{
+#homeVideo h1 {
+font-size: 50px;
+}
+
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) 
+{
+
+#homeVideo h1 {
+font-size: 47px;
+}
+
+}
+
+
+
+
+#Opportunities{
+  padding: 2rem 0;
+}
+
+#Opportunities .card{
+border:none;
+
+}
+#Opportunities .card .card-body a:first-child{
+
+background-color: #0F9675;
+
+}
+#Opportunities .card .card-body a{
+font-size: 20px;
+font-weight: bold;
+border: 0;
+color: white;
+}
+
+#Opportunities .card .card-body a:last-child{
+
+background-color:#AD0F14;
+
+}
+
+
+.contact-map-area #contact-map {
+  width: 100%;
+  height: 400px; }
+
+p.form-message.success,
+p.form-message.error {
+  font-size: 16px;
+  color: #333;
+  background: #ddd;
+  padding: 10px 15px;
+  margin-left: 15px;
+  margin-top: 15px; }
+
+p.form-message.error {
+  color: #f00; }
+
+.contact-info {
+  border: 2px solid #e5e5e5;
+  padding: 40px 30px; }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .contact-info {
+      padding: 30px 20px; } }
+  .contact-info .title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    position: relative;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px; }
+    .contact-info .title::before {
+      position: absolute;
+      content: '';
+      background-color: #e52e06;
+      width: 50px;
+      height: 1px;
+      bottom: 0;
+      left: 0; }
+  .contact-info .text {
+    margin-top: 25px; }
+
+.contact-info-block .single-info {
+  margin-top: 30px; }
+  .contact-info-block .single-info .info-icon-title {
+    padding-bottom: 5px; }
+    .contact-info-block .single-info .info-icon-title .info-icon {
+      font-size: 30px;
+      color: #333;
+      line-height: 30px; }
+    .contact-info-block .single-info .info-icon-title .info-title {
+      padding-left: 20px;
+      font-size: 18px;
+      font-weight: 500;
+      color: #333;
+  
+      line-height: 30px; }
+  .contact-info-block .single-info p {
+    padding-top: 5px; }
+
+    .contact-page input{
+      padding: 10px 46px;
+      margin: 10px 0;
+      border: 1px solid grey;
+      border-radius: 3px;
+    }
+
+    .contact-page textarea{
+      width: 900px;
+      height: 200px;
+    }
+    .contact-page #formbtn{
+  background-color: black;
+  padding: 10px 20px;
+  color: white;
+  outline: none;
+  border: none;
+  transition: 1s;
+}
+.contact-page #formbtn:hover{
+  background-color: #AD0F14;
+
+}
+#CheckOutForm .modal {
+  width: fit-content;
+  height: fit-content;
+  background: #FFFFFF;
+  box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 26px;
+  max-width: 450px;
+}
+
+#CheckOutForm  .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+#CheckOutForm  .payment--options {
+  width: calc(100% - 40px);
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  gap: 20px;
+  padding: 10px;
+}
+
+#CheckOutForm  .payment--options button {
+  height: 55px;
+  background: #F2F2F2;
+  border-radius: 11px;
+  padding: 0;
+  border: 0;
+  outline: none;
+}
+
+#CheckOutForm  .payment--options button svg {
+  height: 18px;
+}
+
+#CheckOutForm  .payment--options button:last-child svg {
+  height: 22px;
+}
+
+#CheckOutForm  .separator {
+  width: calc(100% - 20px);
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 10px;
+  color: black;
+  margin: 0 10px;
+}
+
+#CheckOutForm  .separator > p {
+  word-break: keep-all;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  font-size: 11px;
+  margin: auto;
+}
+
+#CheckOutForm  .separator .line {
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  border: 0;
+  background-color: #e8e8e8;
+  margin: auto;
+}
+
+#CheckOutForm   .credit-card-info--form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#CheckOutForm   .input_container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#CheckOutForm  .split {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  gap: 15px;
+}
+
+#CheckOutForm  .split input {
+  width: 100%;
+}
+
+#CheckOutForm  .input_label {
+  font-size: 10px;
+  color: black;
+  font-weight: 600;
+}
+
+#CheckOutForm  .input_field {
+  width: auto;
+  height: 40px;
+  padding: 0 0 0 16px;
+  border-radius: 9px;
+  outline: none;
+  background-color: #F2F2F2;
+  border: 1px solid #e5e5e500;
+  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+#CheckOutForm   .input_field:focus {
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 0px 2px #242424;
+  background-color: transparent;
+}
+
+#CheckOutForm  .purchase--btn {
+  height: 55px;
+  background: #F2F2F2;
+  border-radius: 11px;
+  border: 0;
+  outline: none;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #363636 0%, #1B1B1B 50%, #000000 100%);
+  box-shadow: 0px 0px 0px 0px #FFFFFF, 0px 0px 0px 0px #000000;
+  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+#CheckOutForm  .purchase--btn:hover {
+  box-shadow: 0px 0px 0px 2px #FFFFFF, 0px 0px 0px 4px #0000003a;
+}
+
+/* Reset input number styles */
+#CheckOutForm  .input_field::-webkit-outer-spin-button,
+#CheckOutForm  .input_field::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#CheckOutForm  .input_field[type=number] {
+  -moz-appearance: textfield;
+}
+
+#CheckOutForm{
+  background-image: url(/assets/img/pizzalogin.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 12rem 0;
+}
+
+
+
+#loginform
+{
+    background-image: url(/assets/img/pizzalogin.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    padding: 40px;
+}
+
+
+#loginform .form-container {
+
+    width: 350px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0 50px;
+    margin:auto
+    
+  }
+  
+  #loginform  .title {
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 10px 0 30px 0;
+    font-size: 28px;
+    font-weight: 800;
+  }
+  
+  #loginform  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 15px;
+  }
+  
+  #loginform .input {
+    border-radius: 20px;
+    border: 1px solid #c0c0c0;
+    outline: 0 !important;
+    box-sizing: border-box;
+    padding: 12px 15px;
+  }
+  
+  #loginform  .page-link {
+    text-decoration: underline;
+    margin: 0;
+    text-align: end;
+    color: #747474;
+    text-decoration-color: #747474;
+  }
+  
+  #loginform  .page-link-label {
+    cursor: pointer;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+  }
+  
+  #loginform  .page-link-label:hover {
+    color: #000;
+  }
+  
+  #loginform  .form-btn {
+    padding: 10px 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    border: 0 !important;
+    outline: 0 !important;
+    background: teal;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  #loginform  .form-btn:active {
+    box-shadow: none;
+  }
+  
+  #loginform  .sign-up-label {
+    margin: auto;
+    font-size: 10px;
+    color: #747474;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  #loginform  .sign-up-link {
+    margin-left: 50px;
+    font-size: 11px;
+    text-decoration: underline;
+    text-decoration-color: teal;
+    color: teal;
+    cursor: pointer;
+    font-weight: 800;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  #loginform  .buttons-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+    gap: 15px;
+  }
+  
+  #loginform  .apple-login-button,
+  #loginform    .google-login-button {
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+          rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    gap: 5px;
+  }
+  
+  #loginform  .apple-login-button {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+  }
+  
+  #loginform  .google-login-button {
+    border: 2px solid #747474;
+  }
+  
+  #loginform   .apple-icon,
+  #loginform     .google-icon {
+    font-size: 18px;
+    margin-bottom: 1px;
+  }
+
+
+ 
